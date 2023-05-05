@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISPTEC</title>
+    <link rel="stylesheet" type="text/css" href="prep.css">
+    <script type="text/javascript" src="prep.js"></script>
+
+</head>
+<body>
+
+    <h2>Instituto Superior Politécnico de Technologia e Ciência</h2>
+    <hr>
+
+    <form id="form">
+
+        <div class="form-control">
+            <label for="name" id="label-name">Nome do Aluno:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="date" id="label-date">Data de Nascimento:</label>
+            <input type="date" id="date"/>
+        </div>
+
+        <div class="form-control">
+            <label for="mom" id="label-mom">Nome da Mãe:</label>
+            <input type="text" id="mom" />
+        </div>
+
+        <div class="form-control">
+            <label for="dad" id="label-dad">Nome do Pai:</label>
+            <input type="text" id="dad" />
+        </div>
+
+        <div class="form-control">
+            <label>Telefone:</label>
+            <label for="tel" id="label-tel">Tel:</label>
+            <input type="text" id="tel" />
+            <label for="cod" id="label-cod">Código:</label>
+            <input type="text" id="cod" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+
+    </form>
+
+    <form id="form">
+
+        <div class="form-control">
+            <label>Informações de Matrícula:</label>
+            <label for="year" id="year">Ano:</label>
+            <select name="year" id="year">
+                <option>~~Seleccione~~</option>
+                <option value="1">1º ano</option>
+                <option value="2">2º ano</option>
+                <option value="3">3º ano</option>
+                <option value="4">4º ano</option>
+                <option value="mestrado">Mestrado</option>
+                <option value="doutoramento">Doutoramento</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Turno:</label>
+            <label for="turno-1">
+                <input type="radio" id="turno-1" name="turno">Manhã</input></label>
+            <label for="turno-2">
+                <input type="radio" id="turno-2" name="turno">Tarde</input></label>  
+        </div>
+
+        <div class="form-control">
+            <label>Actividades Extracurriculares:</label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">Informática</input></label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Música</input></label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Ballet</input></label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Pintura</input></label>
+            <label for="inp-5">
+               <input type="checkbox" name="inp">Judó</input></label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">Futebol</input></label>
+        </div>
+
+        <button type="gravar" value="gravar">Gravar</button>
+        <button type="limpar" value="limpar">Limpar Campos</button>
+    </form>
+
+    <table border="1">
+        <script>tabuada()</script>
+    </table>
+
+</body>
+</html>
